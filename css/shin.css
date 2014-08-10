@@ -1,5 +1,7 @@
 body {
   font-size: 17px;
+  padding: 70px 0px;
+  position: relative;
 }
 
 .navbar-brand {

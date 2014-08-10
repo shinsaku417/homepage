@@ -17,8 +17,8 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body>
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+<body data-spy="scroll" data-target=".navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -31,9 +31,12 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">Games</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+          <li><a href="#homeless-pony">Homeless Pony</a></li>
+          <li><a href="#reverse-rock-paper-myo">Reverse Rock, Paper, MYO</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://www.linkedin.com/in/shinsakuuesugi/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/shinsaku417" target="_blank">GitHub</a></li>
         </ul>
       </div>
     </div>
@@ -49,7 +52,7 @@
           at <a href = "https://www.makegameswith.us/summer-academy/">MGWU Summer Academy</a>. This page is the portfolio of games that I built.</p>
       </div>
     </div>
-    <hr>
+    <hr id="homeless-pony">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3 text-center">
         <p><img src="image/homelesspony/icon.png" alt="" width="128" class="app-icon"></p>
@@ -58,7 +61,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-sm-offset-1">
         <p>
           Homeless Pony is a puzzle game on a grid. You jump in an L-shape like a knight in chess,
         and your goal is to collect every single carrot on the map, then get to the goal square. In
@@ -91,15 +94,15 @@
         <img src = "image/homelesspony/customlevel.png" class="img-responsive">
       </div>
     </div>
-    <hr>
+    <hr id="reverse-rock-paper-myo">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3 text-center">
-        <h1><a href = "http://challengepost.com/software/reverse-rock-paper-myo">Reverse Rock, Paper, MYO</a></h1>
+        <h1>Reverse Rock, Paper, MYO</h1>
         <p class="lead">Award winning game at YC Hacks.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-sm-offset-1">
         <p>
           Reverse Rock, Paper, MYO is an iOS game built by 4 other teammates and I at YC Hacks. It is a highscore-based game that
           allows players to use gesture control armband <a href="https://www.thalmic.com/en/myo/">MYO</a> to
@@ -115,7 +118,9 @@
           <li>Timer bar
           <li>Health System</li>
         </ul>
-
+        <p>
+          <a href="http://challengepost.com/software/reverse-rock-paper-myo" class="btn btn-primary" target="_blank">Read More at Challengepost &rarr;</a>
+        </p>
       </div>
       <div class="col-sm-4">
         <img src = "image/rockpapermyo/gameplay.png" class="img-responsive">
