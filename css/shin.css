@@ -1,0 +1,7 @@
+*[class^="col-"] {
+  margin-bottom: 1em;
+}
+
+.row {
+  margin-bottom: 2em;
+}
