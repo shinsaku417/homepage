@@ -1,7 +1,20 @@
+body {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
 *[class^="col-"] {
   margin-bottom: 1em;
 }
 
 .row {
+  margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.app-icon {
+  border-radius: 10px;
 }
